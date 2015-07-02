@@ -1,12 +1,12 @@
 #import "OTSMainViewController.h"
-#import "OTSDatabaseManager.h"
+#import "MZPersistenceManager.h"
 
 @import CoreData;
 
 @interface OTSMainViewController () <UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) OTSDatabaseManager *databaseManager;
+@property (strong, nonatomic) MZPersistenceManager *databaseManager;
 @property (strong, nonatomic) NSDateFormatter *dateFormatter;
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 
@@ -51,7 +51,7 @@
   [[self navigationItem] setLeftBarButtonItem:batchAddItemaBarButtonItem];
   [[[self navigationItem] leftBarButtonItem] setEnabled:NO];
 
-  [self setDatabaseManager:[[OTSDatabaseManager alloc] init]];
+  [self setDatabaseManager:[[MZPersistenceManager alloc] init]];
   [[self databaseManager] setupCoreDataStackWithCompletionHandler:^(BOOL suceeded, NSError *error) {
     if (suceeded) {
       [[[self navigationItem] leftBarButtonItem] setEnabled:YES];

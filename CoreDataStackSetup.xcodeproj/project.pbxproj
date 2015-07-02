@@ -14,7 +14,7 @@
 		F40BB3C61AA71AB9005EFFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40BB3C41AA71AB9005EFFA3 /* Main.storyboard */; };
 		F40BB3C81AA71AB9005EFFA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40BB3C71AA71AB9005EFFA3 /* Images.xcassets */; };
 		F40BB3CB1AA71AB9005EFFA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40BB3C91AA71AB9005EFFA3 /* LaunchScreen.xib */; };
-		F40BB3E21AA71AE8005EFFA3 /* OTSDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BB3E11AA71AE8005EFFA3 /* OTSDatabaseManager.m */; };
+		F40BB3E21AA71AE8005EFFA3 /* MZPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BB3E11AA71AE8005EFFA3 /* MZPersistenceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		F40BB3C51AA71AB9005EFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F40BB3C71AA71AB9005EFFA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F40BB3CA1AA71AB9005EFFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F40BB3E01AA71AE8005EFFA3 /* OTSDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSDatabaseManager.h; sourceTree = "<group>"; };
-		F40BB3E11AA71AE8005EFFA3 /* OTSDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSDatabaseManager.m; sourceTree = "<group>"; };
+		F40BB3E01AA71AE8005EFFA3 /* MZPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZPersistenceManager.h; sourceTree = "<group>"; };
+		F40BB3E11AA71AE8005EFFA3 /* MZPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZPersistenceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				F40BB3BC1AA71AB9005EFFA3 /* AppDelegate.m */,
 				F40BB3C11AA71AB9005EFFA3 /* OTSMainViewController.h */,
 				F40BB3C21AA71AB9005EFFA3 /* OTSMainViewController.m */,
-				F40BB3E01AA71AE8005EFFA3 /* OTSDatabaseManager.h */,
-				F40BB3E11AA71AE8005EFFA3 /* OTSDatabaseManager.m */,
+				F40BB3E01AA71AE8005EFFA3 /* MZPersistenceManager.h */,
+				F40BB3E11AA71AE8005EFFA3 /* MZPersistenceManager.m */,
 				F40BB3C41AA71AB9005EFFA3 /* Main.storyboard */,
 				F40BB3C71AA71AB9005EFFA3 /* Images.xcassets */,
 				F40BB3C91AA71AB9005EFFA3 /* LaunchScreen.xib */,
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40BB3BD1AA71AB9005EFFA3 /* AppDelegate.m in Sources */,
-				F40BB3E21AA71AE8005EFFA3 /* OTSDatabaseManager.m in Sources */,
+				F40BB3E21AA71AE8005EFFA3 /* MZPersistenceManager.m in Sources */,
 				F40BB3C01AA71AB9005EFFA3 /* MyDataModel.xcdatamodeld in Sources */,
 				F40BB3C31AA71AB9005EFFA3 /* OTSMainViewController.m in Sources */,
 				F40BB3BA1AA71AB9005EFFA3 /* main.m in Sources */,
